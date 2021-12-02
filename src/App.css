@@ -1,0 +1,105 @@
+.card{
+    margin:5px;
+    width: 100%;
+}
+.App{
+    width: 60%;
+    left: 20%;
+    top: 80px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.AppBtn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+}
+#homeContentent{
+    padding: 5px;
+    
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#searchInputContainer{
+    margin: 5px auto;
+}
+.headerTitle{
+    font-size: larger;
+    font-weight: 600;
+    flex-grow: 2;
+    text-align: center;
+    margin: 0px auto 5px;
+}
+.backBtn{
+    flex-shrink: 1;
+    font-size: x-large;
+    margin: 0;
+    height: 100%;
+}
+.stylelessLink{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+#headerContainer{
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+}
+.list-group-item{
+    padding: 0;
+}
+.employeeItemContainer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.itemTextContainer{
+    margin: auto 10px;
+    font-size: medium;
+}
+.itemPoste{
+    font-size: small;
+    color: darkgray;
+}
+.itemAvatar{
+    width: 50px;
+    height: 50px;
+}
+#employeeContainer{
+    padding: 10px;
+}
+.employeeHeaderContainer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.employeeAvatar{
+    width: 100px;
+    height: 100px;
+}
+.employeeTextContainer{
+    margin-left: 15px;
+    font-size : larger
+}
+.employeePoste{
+    font-size : small;
+    color: darkgray;
+}
+.employeePageItem{
+    padding : 5px 10px;
+}
+.unselect{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
+}
+.borderless{
+    border: none;
+}

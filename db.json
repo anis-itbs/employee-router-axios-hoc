@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Anis",
+      "poste": "CEO",
+      "phone": "22323424",
+      "email": "anis@itbs.tn",
+      "img": "avatarM1.png"
+    },
+    {
+      "id": 2,
+      "name": "Aymen",
+      "poste": "CTO",
+      "phone": "53525323",
+      "email": "aymen@itbs.tn",
+      "img": "avatarM1.png"
+    },
+    {
+      "id": 3,
+      "name": "Ahmed",
+      "poste": "CMO",
+      "phone": "98383484",
+      "email": "ahmed@itbs.tn",
+      "img": "avatarM1.png"
+    }
+  ]
+}
